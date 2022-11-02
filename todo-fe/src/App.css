@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-container{
+  padding-top: 15px;
+  margin: 0 auto 0 auto;
+}
+
+.todolist{
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 2px rgba(0,0,0,0.23);
+  padding: 20px;
+  margin-top: 10px;
+  border: #000000 1px solid;
+  width: 40%;
+}
+
+.todolist h1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.completelist{
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 2px rgba(0,0,0,0.23);
+  border: #000000 1px solid;
+  padding: 20px;
+  margin-top: 10px;
+  width: 40%;
+
+}
+
+.completelist h1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.todoApp{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  max-height: 80%;
+}

@@ -1,0 +1,38 @@
+.todo-list {
+    margin: 0 auto 0 auto;
+    background: #e8e8e8;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 400px;
+  }
+
+  .Delete{
+    background: #ff0000;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 400px;
+    color: #dbdbdb;
+    font-size: medium;
+  }
+  
+  .todo {
+    padding: 3px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    transition: 0.2s ease;
+  }
+  
+  .todo:hover{
+    background: #dbdbdb;
+  }
+  
+  .todo-text{
+    margin-left:0;
+  }
+  
+  .todos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
